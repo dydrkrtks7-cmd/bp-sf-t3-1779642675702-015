@@ -1,61 +1,354 @@
 <!DOCTYPE html>
 <html lang="ko">
 <head>
-<link rel="icon" type="image/svg+xml" href="favicon.svg">
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
     <meta name="bpaas-design-system" content="brutalist-avantgarde">
     <meta name="bpaas-design-theme" content="kr-neon-void">
-    
-    <!-- SEO & Meta -->
-    <title>마포 백링크 대행 | 스트릿 패션 백링크 전문 | SF-SEO</title>
-    <meta name="description" content="마포구 핫한 스트릿 패션 브랜드를 위한 백링크 대행 서비스. 구글 상위 노출을 위한 거침없는 전략. 티어 3 PBN 망 구축으로 검색 엔진을 장악하세요. 지금 바로 문의하세요.">
-    <meta name="keywords" content="마포 백링크 대행, 스트릿패션 백링크, 구글 상위노출, PBN, 백링크 구매, 홍대 건대 패션 마케팅">
+    <meta name="description" content="마포 스트릿패션 백링크 대행 사이트 상세 정보 페이지. 실제 작업 방식, 사후 관리, 예상 타임라인을 솔직하게 풀어냅니다. 구축 전 반드시 확인해야 할 실무 노트.">
+    <meta name="keywords" content="백링크 대행 사이트, 마포, 스트릿패션, 백링크 정보, SEO, PBN, 링크빌딩 상세">
     <link rel="canonical" href="https://sf-t3-1779642675702-015.maphoshirts.com/about.html">
-    
-    <!-- Open Graph / Social -->
+    <title>정보 — 백링크 대행 사이트 | 마포 스트릿패션</title>
     <meta property="og:type" content="website">
-    <meta property="og:title" content="마포 백링크 대행 | 스트릿 패션 백링크 전문">
-    <meta property="og:description" content="패션은 태도고, 백링크는 무기다. 마포 스트릿 패션 브랜드를 위한 거친 SEO 솔루션.">
     <meta property="og:url" content="https://sf-t3-1779642675702-015.maphoshirts.com/about.html">
-    <meta property="og:image" content="https://dummyimage.com/1200x630/000/fff&text=STREET+SEO">
+    <meta property="og:title" content="정보 — 백링크 대행 사이트 | 마포 스트릿패션">
+    <meta property="og:description" content="마포 스트릿패션 백링크 대행, 상세 정보. 구축 현실, 일정, 사후 관리까지. 전략 수립 전 확인 필수.">
+    <meta property="og:locale" content="ko_KR">
     <meta name="twitter:card" content="summary_large_image">
-
-    <!-- JSON-LD Schema -->
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "LocalBusiness",
-      "name": "마포 백링크 대행 (SF-SEO)",
-      "image": "https://sf-t3-1779642675702-015.pages.dev",
-      "telephone": "010-6279-0862",
-      "url": "https://sf-t3-1779642675702-015.pages.dev",
-      "address": {
-        "@type": "PostalAddress",
-        "addressLocality": "마포구",
-        "addressRegion": "서울특별시",
-        "addressCountry": "KR"
-      },
-      "priceRange": "$$",
-      "description": "마포구 기반 스트릿 패션 전문 백링크 대행 서비스."
-    }
-    </script>
-
     <style>
-        /* CSS VARIABLES & RESET */
         :root {
-            --primary: #000000;
-            --secondary: #ffffff;
-            --accent: #ff3b00;
-            --font-main: 'Impact', 'Arial Black', system-ui, sans-serif;
-            --font-mono: 'Courier New', Courier, monospace;
-            --border-w: 4px;
-            --space-gap: 48px;
-            --space-pad: 72px;
-            --space-sec: 120px;
+            --bg-void: #0a0a0c;
+            --surface-raw: #121218;
+            --border-brutal: #2d2d3a;
+            --accent-neon: #d4ff00;
+            --accent-neon-dim: #a3cc00;
+            --text-primary: #eaeaea;
+            --text-secondary: #9a9aa8;
+            --text-muted: #626272;
+            --danger: #ff3c5c;
+            --info-tag: #0a0a0c;
+            --card-gap: 1.25rem;
+            --section-gap: 3.5rem;
+            --grid-max: 1280px;
+            --radius-sm: 0px;
+            --radius-md: 2px;
+            --font-mono: 'Courier New', 'D2Coding', monospace;
+            --font-sans: 'Pretendard', 'Noto Sans KR', -apple-system, sans-serif;
         }
 
         * {
-            box-sizing:
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: var(--bg-void);
+            color: var(--text-primary);
+            font-family: var(--font-sans);
+            line-height: 1.7;
+            -webkit-font-smoothing: antialiased;
+            position: relative;
+            min-height: 100vh;
+            overflow-x: hidden;
+        }
+
+        body::before {
+            content: "";
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-image: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23ffffff' fill-opacity='0.02'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+            pointer-events: none;
+            z-index: 0;
+        }
+
+        .r-top-ch07 {
+            position: relative;
+            z-index: 1;
+            max-width: var(--grid-max);
+            margin: 0 auto;
+            padding: 1.25rem 2rem;
+        }
+
+        .k-txt-opn4 {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 1.25rem 0;
+            border-bottom: 2px solid var(--border-brutal);
+            flex-wrap: wrap;
+            gap: 1rem;
+        }
+
+        .x-ico-z85j {
+            font-family: var(--font-mono);
+            font-size: 1.7rem;
+            font-weight: 700;
+            letter-spacing: -0.5px;
+            color: var(--accent-neon);
+            text-transform: uppercase;
+            background: var(--surface-raw);
+            padding: 0.25rem 1rem;
+            border: 2px solid var(--accent-neon);
+            display: inline-block;
+            line-height: 1.4;
+        }
+
+        .x-card-tv5q-desktop {
+            display: flex;
+            gap: 2.5rem;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+
+        .x-card-tv5q-desktop a {
+            font-family: var(--font-mono);
+            font-size: 0.9rem;
+            text-decoration: none;
+            color: var(--text-secondary);
+            text-transform: uppercase;
+            letter-spacing: 0.8px;
+            padding: 0.4rem 0;
+            border-bottom: 2px solid transparent;
+            transition: color 0.15s, border-bottom-color 0.15s;
+            font-weight: 500;
+        }
+
+        .x-card-tv5q-desktop a:hover {
+            color: var(--accent-neon);
+            border-bottom-color: var(--accent-neon);
+        }
+
+        .r-txt-x3d5 {
+            font-size: 1.1rem;
+            font-weight: 600;
+            color: var(--text-primary);
+            margin: 2.8rem 0 1.4rem;
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+        }
+
+        .r-txt-x3d5::before {
+            content: "⏻";
+            color: var(--accent-neon);
+            font-size: 1.3rem;
+        }
+
+        .hamburger-menu {
+            display: none;
+            background: none;
+            border: 2px solid var(--border-brutal);
+            color: var(--accent-neon);
+            font-size: 1.75rem;
+            padding: 0.25rem 0.9rem;
+            cursor: pointer;
+            background: var(--surface-raw);
+        }
+
+        .grid-brutal-info {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: var(--card-gap);
+            margin: 2.2rem 0 3rem;
+        }
+
+        .info-cell {
+            background: var(--surface-raw);
+            border: 2px solid var(--border-brutal);
+            padding: 1.8rem;
+            position: relative;
+            border-radius: var(--radius-sm);
+            transition: border-color 0.2s;
+        }
+
+        .info-cell:hover {
+            border-color: var(--accent-neon);
+        }
+
+        .info-cell h3 {
+            font-family: var(--font-mono);
+            font-size: 1.3rem;
+            color: var(--accent-neon);
+            margin-bottom: 1rem;
+            letter-spacing: -0.3px;
+        }
+
+        .info-cell p {
+            color: var(--text-secondary);
+            font-size: 0.95rem;
+            line-height: 1.75;
+        }
+
+        .timeline-section {
+            margin: 3.8rem 0 2.5rem;
+        }
+
+        .timeline-item {
+            display: flex;
+            gap: 1.5rem;
+            margin-bottom: 2rem;
+            padding: 1.2rem 1.5rem;
+            border-left: 4px solid var(--accent-neon);
+            background: rgba(18, 18, 24, 0.7);
+        }
+
+        .timeline-step {
+            font-family: var(--font-mono);
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: var(--accent-neon);
+            min-width: 45px;
+        }
+
+        .faq-brutal {
+            margin: 3.8rem 0 2rem;
+        }
+
+        .faq-item {
+            border-bottom: 1px solid var(--border-brutal);
+            padding: 1.4rem 0;
+        }
+
+        .faq-q {
+            font-weight: 700;
+            font-size: 1.05rem;
+            color: var(--text-primary);
+            margin-bottom: 0.5rem;
+        }
+
+        .faq-a {
+            color: var(--text-secondary);
+            font-size: 0.95rem;
+        }
+
+        footer {
+            border-top: 2px solid var(--border-brutal);
+            margin-top: 3.5rem;
+            padding: 2rem 0 1.8rem;
+            text-align: center;
+            color: var(--text-muted);
+            font-size: 0.8rem;
+            font-family: var(--font-mono);
+        }
+
+        @media (max-width: 768px) {
+            .x-card-tv5q-desktop {
+                display: none;
+                flex-direction: column;
+                width: 100%;
+                background: var(--surface-raw);
+                border: 2px solid var(--border-brutal);
+                padding: 1.8rem;
+                margin-top: 1rem;
+            }
+            .x-card-tv5q-desktop.active {
+                display: flex;
+            }
+            .hamburger-menu {
+                display: inline-block;
+            }
+            .r-top-ch07 {
+                padding: 1rem 1.2rem;
+            }
+            .grid-brutal-info {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="r-top-ch07">
+        <header>
+            <div class="k-txt-opn4">
+                <span class="x-ico-z85j">MAPO:LINK</span>
+                <button class="hamburger-menu" id="menu-toggle" aria-label="메뉴 열기">☰</button>
+                <nav class="x-card-tv5q-desktop" id="main-nav">
+                    <a href="https://sf-t3-1779642675702-015.maphoshirts.com/">홈</a>
+                    <a href="https://sf-t3-1779642675702-015.maphoshirts.com/info" style="color:var(--accent-neon); border-bottom:2px solid var(--accent-neon);">정보</a>
+                    <a href="https://sf-t3-1779642675702-015.maphoshirts.com/process">프로세스</a>
+                    <a href="https://sf-t3-1779642675702-015.maphoshirts.com/faq">FAQ</a>
+                    <a href="https://sf-t3-1779642675702-015.maphoshirts.com/contact">연락</a>
+                </nav>
+            </div>
+        </header>
+
+        <main>
+            <div class="r-txt-x3d5">백링크 대행, 이 정도는 알고 시작하자</div>
+            <p style="color: #b0b0be; margin-bottom: 2rem; font-size: 1.05rem; max-width: 780px;">
+                마포 홍대 앞 골목에서 스트릿브랜드 론칭하던 시절, 우리도 링크빌딩이 뭔지 하나도 몰랐어요. 
+                그냥 “PBN 쓴다더라” 하고 덜컥 맡겼다가 한 달 뒤 트래픽 제로, 돈만 깨졌죠. 
+                여기는 그런 실수 반복하지 말라고 모든 걸 까놓습니다.
+            </p>
+
+            <div class="grid-brutal-info">
+                <div class="info-cell">
+                    <h3>⏳ 실제 소요 기간</h3>
+                    <p>빠른 P,BN 셋업 기준 7~10일 내 첫 링크 배치. 단, 색인(인덱싱)까지 통상 2~4주 소요. 구글 서치콘솔 강제 수집 요청 병행 시 더 단축 가능. 스트릿패션 시즌성 고려하면 오픈 6주 전 시작 권장.</p>
+                </div>
+                <div class="info-cell">
+                    <h3>🧵 링크 유형 구성</h3>
+                    <p>컨텍스트 인서트, 게스트 포스트, 티어2 소셜 백업, 에디트리얼 미믹 등 4종 믹스. 한 가지 유형만 퍼붓는 건 위험하니까요. 마포 로컬 시그널 추가 시 네이버 블로그 백링크도 선택적 연동.</p>
+                </div>
+                <div class="info-cell">
+                    <h3>🔒 사후 유지 관리</h3>
+                    <p>링크는 살아있는 생물 같아서 일부는 시간 지나면 깨집니다. 월 1회 깨진 링크 리포트 + 재배치 서비스 포함. 추가 비용 없고, 3개월까지 무상 교체 보장.</p>
+                </div>
+                <div class="info-cell">
+                    <h3>🧾 리포트 포맷</h3>
+                    <p>구글 시트 기반 URL 리스트, DR, 유량 지표, 배치 일자, 앵커텍스트 전부 기재. PDF 요청도 가능. 자동화 봇이 아니에요. 사람이 하나하나 체크하고 보냅니다.</p>
+                </div>
+            </div>
+
+            <div class="timeline-section">
+                <h2 style="font-family: var(--font-mono); color: var(--accent-neon); margin-bottom: 1.8rem; font-size: 1.4rem;">⬥ 전형 업무 타임라인</h2>
+                <div class="timeline-item">
+                    <span class="timeline-step">01</span>
+                    <div><strong style="color:#f0f0f0;">킥오프 미팅 (D-Day)</strong><br><span style="color:var(--text-secondary);">타깃 키워드 확정, 경쟁사 백링크 프로파일 분석. 마포 스트리트패션 특화 니치 선정.</span></div>
+                </div>
+                <div class="timeline-item">
+                    <span class="timeline-step">02</span>
+                    <div><strong style="color:#f0f0f0;">PBN 인벤토리 매칭 (D+2)</strong><br><span style="color:var(--text-secondary);">30~50개 후보 도메인 중 적합성 상위 15개 선별. DR 20 이상, 트래픽 최소 100.</span></div>
+                </div>
+                <div class="timeline-item">
+                    <span class="timeline-step">03</span>
+                    <div><strong style="color:#f0f0f0;">콘텐츠 작성 & 플레이스먼트 (D+5~7)</strong><br><span style="color:var(--text-secondary);">스트릿패션 톤에 맞춰 네이티브한 문장으로 기사 작성. 클라이언트 승인 후 삽입.</span></div>
+                </div>
+                <div class="timeline-item">
+                    <span class="timeline-step">04</span>
+                    <div><strong style="color:#f0f0f0;">인덱스 추적 & 리포트 (D+14~)</strong><br><span style="color:var(--text-secondary);">구글 서치콘솔/에이치리프트 병행 모니터링. 30일 후 첫 성과 리뷰.</span></div>
+                </div>
+            </div>
+
+            <div class="faq-brutalist">
+                <h2 style="font-family: var(--font-mono); color: var(--accent-neon); margin-bottom: 1.6rem; font-size: 1.4rem;">❓ 정보 기반 FAQ</h2>
+                <div class="faq-item">
+                    <div class="faq-q">Q. 마포 로컬 시그널은 어떻게 추가되나요?</div>
+                    <div class="faq-a">네이버 지식인, 로컬 디렉토리 리스팅, 카카오 맵 플레이스 언급 등을 활용해 서울 마포구 연관 백링크를 자연스럽게 심습니다. 위치 기반 검색어에 유리하게 작용해요.</div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-q">Q. 이미 구글 패널티를 받은 사이트인데 가능한가요?</div>
+                    <div class="faq-a">패널티 유형에 따라 다릅니다. 수동 조치라면 해제 후 시작해야 하고, 알고리즘 강등이면 링크 프로필 정리부터 같이 들어갑니다. 무턱대고 백링크만 추가하면 더 망가질 수 있어서, 초기 진단부터 꼭 해요.</div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-q">Q. 최소 계약 기간이나 약정 있나요?</div>
+                    <div class="faq-a">일회성 프로젝트 1개월 단위도 가능. 하지만 백링크는 축척 효과가 커서 보통 3~4개월 정도 꾸준히 쌓길 추천드려요. 약정은 없고, 중단 원하시면 언제든 말씀만 주시면 됩니다.</div>
+                </div>
+            </div>
+        </main>
+
+        <footer>
+            © 2025 마포 스트릿패션 백링크 대행 — 정보 페이지 · 모든 링크는 실무 기반 · 과장 금지
+        </footer>
+    </div>
+
+    <script>
+        document.getElementById('menu-toggle').addEventListener('click', function() {
+            document.getElementById('main-nav').classList.toggle('active');
+        });
+    </script>
 </body>
 </html>
